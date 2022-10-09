@@ -6,12 +6,12 @@ function checkValue(){
    if ( result > targetNum){
 
    $("#result").css("color","red");
-   $("#result").text("Too High!");
+   $("#result").text("Too high!");
  } 
  else if (result < targetNum) {
 
    $("#result").css("color","orange");
-   $("#result").text("Too Low!");
+   $("#result").text("Too low!");
  } 
  else if(result == targetNum) {
 
